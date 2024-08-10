@@ -1,10 +1,24 @@
-# Canva Apps SDK starter kit
+# Vartalaap
 
-Welcome to the **Apps SDK starter kit** for Canva's app development platform. 🎉
+Vartalaap is a real-time chat application designed for collaborative communication on Canva. It allows users to create and join chat rooms, send and receive messages, and stay connected while working on projects. The app supports room-based messaging and provides a seamless user experience for efficient collaboration.
 
-This repo contains everything you need to get an app up and running in a matter of minutes, including a boilerplate project and lots of examples. The complete documentation for the platform is at [canva.dev/docs/apps](https://www.canva.dev/docs/apps/).
+## Features
 
-**Note:** The starter kit and documentation assumes some experience with TypeScript and React.
+- Create and join chat rooms using unique room keys
+- Real-time messaging with message alignment based on sender
+- Video calling and file sharing integration (planned)
+- Mobile support and user profiles (planned)
+- End-to-end encryption and robust authentication (planned)
+- Advanced analytics and scalability enhancements (planned)
+
+## Project Setup
+
+To set up and run Vartalaap locally, follow these steps:
+
+### Prerequisites
+
+- Node.js (version 16.x or later)
+- npm (version 8.x or later)
 
 ## Requirements
 
