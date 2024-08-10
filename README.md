@@ -173,7 +173,8 @@ The ID of the app must be explicitly defined because it's required to [send and 
 
   This README provides a comprehensive guide for setting up the project locally, contributing, and contacting for further information. Adjust the placeholders as needed, such as your GitHub repository URL and email address.
 
-  ![image](https://github.com/user-attachments/assets/f53ed50b-ef63-4630-966f-cbf00105968f)   ![logo (1)](https://github.com/user-attachments/assets/02c4ce57-5e7e-4f4a-94ad-0b1d89d26945)
+  ![image](https://github.com/user-attachments/assets/f53ed50b-ef63-4630-966f-cbf00105968f)   ![logo (2)](https://github.com/user-attachments/assets/8d0d5b13-c8c0-4f07-8ce0-0fca267eb490)
+
 
 
 
