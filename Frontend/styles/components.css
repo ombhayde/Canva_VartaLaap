@@ -1,0 +1,233 @@
+.scrollContainer {
+  box-sizing: border-box;
+  overflow-y: scroll;
+  height: 100%;
+  padding-top: var(--ui-kit-space-0);
+  padding-right: var(--ui-kit-space-2);
+  padding-bottom: var(--ui-kit-space-2);
+
+  /* for firefox */
+  scrollbar-width: thin;
+  scrollbar-color: var(--ui-kit-color-typography-quaternary) transparent;
+}
+
+.scrollContainer::-webkit-scrollbar {
+  position: absolute;
+  width: var(--ui-kit-base-unit);
+  height: 0;
+}
+
+.scrollContainer::-webkit-scrollbar-track {
+  background: transparent;
+  width: var(--ui-kit-base-unit);
+  margin-top: var(--ui-kit-space-1);
+  margin-bottom: var(--ui-kit-space-1);
+}
+
+.scrollContainer::-webkit-scrollbar-thumb {
+  border-radius: var(--ui-kit-border-radius);
+  background: var(--ui-kit-color-typography-quaternary);
+  visibility: hidden;
+}
+
+.scrollContainer:hover::-webkit-scrollbar-thumb,
+.scrollContainer:focus::-webkit-scrollbar-thumb,
+.scrollContainer:focus-within::-webkit-scrollbar-thumb {
+  visibility: visible;
+}
+
+.messageForm {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  gap: 0.5rem;
+}
+
+h1 {
+  text-align: center;
+  padding: 0px;
+  margin: 20px 0px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+h5 {
+  text-align: center;
+  padding: 0px;
+  margin: 10px 0px;
+}
+img {
+  width: 250px;
+  height: 250px;
+  border-radius: 13%;
+  /* padding-top: 20px; */
+  margin-top: 20px;
+  /* align-self: center; */
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.chatBox {
+  max-height: 600px;
+  overflow-y: auto;
+  height: 350px;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  position: relative;
+  /* flex-direction: column-reverse; */
+}
+
+.message {
+  max-width: 70%;
+  padding: 0.5rem;
+  border-radius: 4px;
+  font-size: 1.38rem;
+  word-wrap: break-word;
+}
+
+.message.sent {
+  align-self: flex-end;
+  background-color: #007bff;
+  color: white;
+  margin-left: auto; /* Pushes the message to the right */
+}
+
+.message.received {
+  align-self: flex-start;
+  background-color: #e9ecef;
+  color: black;
+  margin-right: auto; /* Pushes the message to the left */
+}
+
+.message:last-child {
+  margin-bottom: 0;
+}
+
+.input {
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.myMessage {
+  background-color: #007bff;
+  color: white;
+  align-self: flex-end;
+  text-align: left;
+  border-radius: 15px 15px 0 15px;
+}
+
+.otherMessage {
+  background-color: #e1e1e1;
+  color: black;
+  align-self: flex-start;
+  text-align: right;
+  border-radius: 15px 15px 15px 0;
+}
+
+.roomKeyDisplay {
+  position: relative;
+  background-color: #7731d8; /* Same color as your buttons */
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  display: inline-block;
+  z-index: 1; /* Ensure it's above other elements */
+}
+
+
+.documentDisplay {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 10px;
+  /* background-color: #ffffff; */
+  /* border-radius: 8px; */
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Heading styles */
+.documentDisplay h1 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.documentDisplay h2 {
+  font-size: 22px;
+  color: #555;
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+
+.documentDisplay h3 {
+  font-size: 18px;
+  color: #666;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* Paragraph and text styles */
+.documentDisplay p,
+.documentDisplay ul,
+.documentDisplay ol {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 16px;
+}
+
+/* List styles */
+.documentDisplay ul,
+.documentDisplay ol {
+  padding-left: 20px;
+}
+
+.documentDisplay ul li,
+.documentDisplay ol li {
+  margin-bottom: 8px;
+}
+
+/* Button styles */
+.documentDisplay .button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #7731d8;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.documentDisplay .button:hover {
+  background-color: #5d28a4;
+}
+
+/* Footer styles */
+.documentDisplay .footer {
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+  margin-top: 40px;
+}
+
+.documentDisplay .footer a {
+  color: #333;
+}
+
+/* Margin for the document link section */
+.scrollContainer p {
+  margin: 20px 0;
+  text-align: center;
+}
