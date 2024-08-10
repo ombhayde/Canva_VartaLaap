@@ -148,6 +148,14 @@ To run backend:
    
 The ID of the app must be explicitly defined because it's required to [send and verify HTTP requests](https://www.canva.dev/docs/apps/verifying-http-requests/). If you don't set up the ID in the `.env` file, an error will be thrown when attempting to run the code.
 
+  ## If you want to Contribute
+
+  - Fork the repository
+  - Create a feature branch (git checkout -b feature-branch)
+  - Commit your changes (git commit -am 'Add new feature')
+  - Push to the branch (git push origin feature-branch)
+  - Create a new Pull Request
+
   ## Acknowledgements
   
   - Socket.IO for real-time communication
@@ -161,19 +169,12 @@ The ID of the app must be explicitly defined because it's required to [send and 
   3. Om Bhayde
   4. Akshat Jain
 
-  ## Contribute
-
-  - Fork the repository
-  - Create a feature branch (git checkout -b feature-branch)
-  - Commit your changes (git commit -am 'Add new feature')
-  - Push to the branch (git push origin feature-branch)
-  - Create a new Pull Request
-
   ## Contact
 
   This README provides a comprehensive guide for setting up the project locally, contributing, and contacting for further information. Adjust the placeholders as needed, such as your GitHub repository URL and email address.
 
-  ![image](https://github.com/user-attachments/assets/f53ed50b-ef63-4630-966f-cbf00105968f)                        ![logo (2)](https://github.com/user-attachments/assets/8d0d5b13-c8c0-4f07-8ce0-0fca267eb490)
+  ![image](https://github.com/user-attachments/assets/f53ed50b-ef63-4630-966f-cbf00105968f)                        
+  ![logo (2)](https://github.com/user-attachments/assets/8d0d5b13-c8c0-4f07-8ce0-0fca267eb490)
 
 
 
