@@ -15,11 +15,6 @@ Vartalaap is a real-time chat application designed for collaborative communicati
 
 To set up and run Vartalaap locally, follow these steps:
 
-### Prerequisites
-
-- Node.js (version 16.x or later)
-- npm (version 8.x or later)
-
 ## Requirements
 
 - Node.js `v18` or `v20.10.0`
