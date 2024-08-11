@@ -137,14 +137,14 @@ To run backend:
    CANVA_HMR_ENABLED=FALSE
    ```
 
-4. Start the example:
+4. Start the Backend:
 
    ```bash
    cd Backend
    npm install
    nodemon server.js
    ```
-   RThe Backend server starts at <https://localhost:4000>.
+   The Backend server starts at <https://localhost:4000>.
    
 The ID of the app must be explicitly defined because it's required to [send and verify HTTP requests](https://www.canva.dev/docs/apps/verifying-http-requests/). If you don't set up the ID in the `.env` file, an error will be thrown when attempting to run the code.
 
@@ -171,7 +171,7 @@ The ID of the app must be explicitly defined because it's required to [send and 
 
   ## Contact
 
-  This README provides a comprehensive guide for setting up the project locally, contributing, and contacting for further information. Adjust the placeholders as needed, such as your GitHub repository URL and email address.
+  This README provides a comprehensive guide for setting up the project locally, contributing, and contacting for further information.
 
   ![image](https://github.com/user-attachments/assets/f53ed50b-ef63-4630-966f-cbf00105968f)           ![logo (2)](https://github.com/user-attachments/assets/8d0d5b13-c8c0-4f07-8ce0-0fca267eb490)
 
